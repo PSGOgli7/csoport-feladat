@@ -1,19 +1,8 @@
-/*
-    
-TemplateMo 557 Grad School
-
-https://templatemo.com/tm-557-grad-school
-
-*/
-
-
 @import url(fontawesome.css);
 @import url("<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">");
 body {
     font-family: 'Montserrat', sans-serif;
 }
-
-/* Basic */
 
 a {
 	color: #3CF;
@@ -66,7 +55,6 @@ p {
 }
 
 
-/* Buttons */
 
 .main-button a {
     background-color: #f5a425;
@@ -148,7 +136,7 @@ a.menu-link { display: none; }
   }
 }
 
-/* Header */
+
 
 @media screen and (max-width: 1050px) {
   .main-header .logo {
@@ -287,7 +275,7 @@ a.menu-link { display: none; }
 }
 
 
-/* Slider */
+
 
 .main-banner {
   position: relative;
@@ -376,7 +364,7 @@ a.menu-link { display: none; }
 }
 
 
-/* Features */
+
 
 section.features .col-4 {
     padding-left: 0px;
@@ -487,7 +475,6 @@ section.features .col-4 {
 
 
 
-/* Why Choosing Us */
 
 section.why-us {
     background-image: url(../images/choosing-bg.jpg);
@@ -618,7 +605,6 @@ section.why-us {
 }
 
 
-/* Coming Soon */
 
 section.coming-soon {
     background-image: url(../images/coming-soon-bg.jpg);
@@ -792,7 +778,7 @@ section.coming-soon form button {
 
 
 
-/* Courses */
+
 
 section.courses {
     background-image: url(../images/choosing-bg.jpg);
@@ -882,7 +868,7 @@ section.courses .owl-carousel button.active {
 
 
 
-/* Video */
+
 
 section.video {
     background-image: url(../images/video-bg.jpg);
@@ -994,7 +980,7 @@ section.video .left-content .main-button {
     letter-spacing: 1px;
 }
 
-/* Magnific Popup CSS */
+
 .mfp-bg {
   top: 0;
   left: 0;
@@ -1297,7 +1283,7 @@ button::-moz-focus-inner {
   background: #000;
 }
 
-/* Main image in popup */
+
 img.mfp-img {
   width: auto;
   max-width: 100%;
@@ -1309,7 +1295,7 @@ img.mfp-img {
   margin: 0 auto;
 }
 
-/* The shadow behind the image */
+
 .mfp-figure {
   line-height: 0;
 }
@@ -1366,9 +1352,7 @@ img.mfp-img {
 }
 
 @media screen and (max-width: 800px) and (orientation: landscape), screen and (max-height: 300px) {
-  /**
-       * Remove all paddings around the image on small screen
-       */
+
   .mfp-img-mobile .mfp-image-holder {
     padding-left: 0;
     padding-right: 0;
@@ -1443,7 +1427,7 @@ img.mfp-img {
 
 
 
-/* Contact */
+
 
 section.contact {
     background-image: url(../images/contact-bg.jpg);
@@ -1526,7 +1510,7 @@ section.contact form button {
     border: none;
 }
 
-/* Footer */
+
 
 footer {
     background-color: #152036;
